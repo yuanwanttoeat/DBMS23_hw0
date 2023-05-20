@@ -1,0 +1,1 @@
+ select distinct _Type as Type from pitches p1 where _Type not in (select distinct _Type from pitches p2 where p2.MPH>95) order by Type;

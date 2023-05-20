@@ -1,0 +1,1 @@
+select count(1) as cnt from games  where away_score - home_score>=10 or away_score - home_score<=-10;
